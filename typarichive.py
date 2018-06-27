@@ -34,6 +34,8 @@ shutil.move(filepath, archive_directory)
 font.close()
 Glyphs.open(new_font_path)
 
+Glyphs.font.familyName = new_font_name(Glyphs.font.familyName)
+
 # Close font
 # Copy font file to new file
 # Move old file to archive
