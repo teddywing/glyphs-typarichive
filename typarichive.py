@@ -1,7 +1,8 @@
 # MenuTitle: TypArichive
 
 __doc__="""
-TODO
+Moves the current font to an `_archive` directory and opens a new timestamped
+copy.
 """
 
 from datetime import datetime
